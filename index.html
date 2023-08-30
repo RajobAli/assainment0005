@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,700;0,900;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,800&display=swap" rel="stylesheet"></head>
+    <!-- tailwind cdn -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisyui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css"/>
+    <!-- font awesome cdn -->
+
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+   
+    </style>
+</head>
+<body>
+
+  <!-- https://64ef0b82681e2e60f28c07e8--fluffy-wisp-02d16e.netlify.app/ -->
+
+  
+<section class="bg-[#F9F6E2]">
+  <div class="w-full lg:flex md:flex gap-4 justify-around mt-4 items-center text-center">
+    <div class="left">
+      <h5 class="text-center text-3xl">---SALE FEVER---</h5>
+      <h1 class="text-center text-5xl">Purchase TK 200 <br> or above & get <span id="text" class="percent text-[#E527B2]">20% off</span></h1>
+       <input type="text" class="ml-40 lg:ml-16" id="ddd" placeholder="Use Promo Code">
+        <button class=" justify-center -ml-10 lg:-ml-10 mt-4 btn bg-[#E527B2]"  id="btnn">SELL200</button> 
+  
+    </div>
+    <div class="right">
+      <img class="ml-20 w-52 h-52" src="Summer 1.png" alt="">
+    </div>
+  </div>
+  
+  
+  </section>
+<section2 class="p-4">
+ <div class="flex justify-between mt-4 gap-8"> 
+  <div class="grid gap-4 lg:grid-cols-3 md:grid-cols-2 items-center justify-center">
+    <div onclick="addTotal(this)" class="card w-60 bg-base-100 shadow-xl">
+      <figure><img src="prod1.png" alt="Shoes" /></figure>
+      <div class="flex h-6 w-6 mt-4 text-center ml-14 ">
+        <img src="rating.png" alt="">
+        <img src="rating.png" alt="">
+        <img src="rating.png" alt="">
+        <img src="ratingtwo.png" alt="">
+        <img src="ratingtwo.png" alt="">
+      </div>
+      <div class="text-center">
+        <div class="card-body text-center">
+          <h1 class="card-title ml-10">K Accessories</h2>
+          <p><span class="-ml-2" id="ttt">50</span>TK</p>
+          <div class="card-actions justify-end">
+           
+          </div>
+        </div>
+      </div>
+   
+    </div>
+    <div onclick="addTotal(this)" class="card w-60 bg-base-100 shadow-xl">
+      <figure><img src="prod2.png" alt="Shoes" /></figure>
+      <div class="flex h-6 w-6 mt-4 text-center ml-14 ">
+        <img src="rating.png" alt="">
+        <img src="rating.png" alt="">
+        <img src="rating.png" alt="">
+        <img src="ratingtwo.png" alt="">
+        <img src="ratingtwo.png" alt="">
+      </div>
+      <div class="card-body text-center">
+        <h1 class="card-title ml-10">K Assessories</h2>
+          <p><span id="ttt">50</span>TK</p>
+        <div class="card-actions justify-end">
+         
+        </div>
+      </div>
+    </div>
+    <div onclick="addTotal(this)" class="card w-60 bg-base-100 shadow-xl">
+      <figure><img src="prod3.png" alt="Shoes" /></figure>
+      <div class="flex h-6 w-6 mt-4 text-center ml-14 ">
+        <img src="rating.png" alt="">
+        <img src="rating.png" alt="">
+        <img src="rating.png" alt="">
+        <img src="ratingtwo.png" alt="">
+        <img src="ratingtwo.png" alt="">
+      </div>
+      <div class="card-body text-center">
+        <h1 class="card-title ml-16">Pot</h2>
+          <p><span id="ttt">150</span>TK</p>
+        <div class="card-actions justify-end">
+        
+        </div>
+      </div>
+    </div>
+   
+    <div onclick="addTotal(this)" class="card w-60 bg-base-100 shadow-xl">
+      <figure><img src="prod4.png" alt="Shoes" /></figure>
+      <div class="flex h-6 w-6 mt-4 text-center ml-14 ">
+        <img src="rating.png" alt="">
+        <img src="rating.png" alt="">
+        <img src="rating.png" alt="">
+        <img src="ratingtwo.png" alt="">
+        <img src="ratingtwo.png" alt="">
+      </div>
+      <div class="card-body text-center">
+        <h1 class="card-title ml-16">Cap</h2>
+          <p><span id="ttt">50</span>TK</p>
+        <div class="card-actions justify-end">
+        
+        </div>
+      </div>
+    </div><div onclick="addTotal(this)" class="card w-60 bg-base-100 shadow-xl">
+      <figure><img src="prod5.png" alt="Shoes" /></figure>
+      <div class="flex h-6 w-6 mt-4 text-center ml-14 ">
+        <img src="rating.png" alt="">
+        <img src="rating.png" alt="">
+        <img src="rating.png" alt="">
+        <img src="ratingtwo.png" alt="">
+        <img src="ratingtwo.png" alt="">
+      </div>
+      <div class="card-body text-center">
+        <h1 class="card-title ml-16">Man</h2>
+          <p><span id="ttt">200</span>TK</p>
+        <div class="card-actions justify-end">
+        
+        </div>
+      </div>
+    </div><div onclick="addTotal(this)" class="card w-60 bg-base-100 shadow-xl">
+      <figure><img src="prod6.png" alt="Shoes" /></figure>
+      <div class="flex h-6 w-6 mt-4 text-center ml-14">
+        <img src="rating.png" alt="">
+        <img src="rating.png" alt="">
+        <img src="rating.png" alt="">
+        <img src="ratingtwo.png" alt="">
+        <img src="ratingtwo.png" alt="">
+      </div>
+      <div class="card-body text-center">
+        <h1 class="card-title ml-14">Shoes</h2>
+          <p><span id="ttt" class="-ml-8">150</span>TK</p>
+        <div class="card-actions justify-end">
+        
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="right">
+    <div id="elements"></div>
+    
+    <div><span id="totalValue"></span> </div>
+    <p id="discount"></p>
+    <p id="totalpay"></p>
+
+
+
+
+
+
+
+
+
+
+</section2>
+
+
+
+<div class="mr-20">
+  <div id="elements"></div>
+
+  <div><span id="totalValue"></span> </div>
+  <p id="discount"></p>
+  <p id="totalpay"></p>
+  <br>
+<input id="inputid" type="text" placeholder="Coupon">
+
+<button class="-ml-20" disabled id="apply">Apply</button>
+<br><br>
+<!-- <button disabled id="make">Make Purpose</button> -->
+
+
+<button disabled id="make" class="btn" onclick="my_modal_1.showModal()">Make Purpose</button>
+<dialog id="my_modal_1" class="modal">
+<form method="dialog" class="modal-box">
+<img class="ml-40" src="congo.png" alt="">
+<p class="py-4 text-5xl text-center">Congratulation</p>
+<div class="modal-action">
+
+<button  id="modalbutton" class="btn">Close</button>
+</div>
+</form>
+</dialog> 
+
+
+</div>
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<script src="index.js"></script>
+    
+    
+</body>
+</html>
